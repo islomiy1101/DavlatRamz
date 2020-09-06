@@ -1,0 +1,65 @@
+#uza-photo-gallery{
+width:280px;
+margin-left:10px;
+}
+#uza-photo-gallery img{
+padding:0px;
+margin:0px;
+}
+#uza-photo-gallery ul, #uza-photo-gallery ul li{
+padding:0px;
+margin:0px;
+background:none;
+}
+
+#slides,
+#slides2,
+#slides3 {
+  display: none;
+  margin-bottom:50px;
+}
+
+#uza-photo-gallery .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#uza-photo-gallery .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+
+#uza-photo-gallery .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+#uza-photo-gallery .slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+
+#uza-photo-gallery .slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+#uza-photo-gallery .slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+#uza-photo-gallery .slidesjs-pagination li a.active,
+#uza-photo-gallery .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+#uza-photo-gallery .slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}

@@ -1,0 +1,46 @@
+
+
+
+/* Start:/bitrix/templates/press_service_uz/components/bitrix/system.pagenavigation/orange/style.css*/
+.system-nav-orange
+{
+	color: #999;
+	font-size:12px;
+}
+
+.system-nav-orange .nav-current-page
+{
+	color:white;
+	background-color: rgb(255, 153, 0);
+	font-weight: bold;
+	padding:1px 0px;
+}
+/* End */
+
+
+
+/* Start:/bitrix/templates/press_service_uz/components/bitrix/news.list/novosti_glava/style.css*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+
+/* Start:/bitrix/templates/press_service_uz/components/bitrix/news.list/publication_glava/style.css*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */

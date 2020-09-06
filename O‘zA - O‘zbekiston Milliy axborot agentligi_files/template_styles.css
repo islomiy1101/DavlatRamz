@@ -1,0 +1,190 @@
+.special-logo{
+display:none;
+padding:44px 0px 0px 135px;
+font-size:28px;
+
+}
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  /*border-radius:3px;*/
+  border-collapse: collapse;
+  /*height: 320px;*/
+  margin: auto;
+  max-width: 700px;
+  padding:0px;
+  width: 100%;
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);*/
+  animation: float 5s infinite;
+}
+ 
+.table-fill th {
+  color:#015d8d;;
+  /*background:#1b1e24;*/
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:18px;
+  font-weight: 100;
+  padding:10px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+  padding-top:0px;
+}
+
+.table-fill th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+.table-fill th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+.table-fill tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+.table-fill tr:hover td {
+  background:#e5e7e7;
+  color:#000;
+  /*border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;*/
+}
+
+.table-fill tr td.form-button{
+background:#fff !important;
+text-align:center;
+}
+
+.table-fill tr:hover td.form-button{
+background:#fff !important;
+border:none;
+}
+ 
+.table-fill tr:first-child {
+  border-top:none;
+}
+
+.table-fill tr:last-child {
+  border-bottom:none;
+}
+ 
+.table-fill tr:nth-child(odd) td {
+  background:#f8f8f8;
+}
+ 
+.table-fill tr:nth-child(odd):hover td {
+  background:#e5e7e7;
+}
+
+.table-fill tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+.table-fill tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+.table-fill td {
+  background:#FFFFFF;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:14px;
+  /*text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);*/
+  /*border-right: 1px solid #C1C3D1;*/
+}
+
+.table-fill td:last-child {
+  border-right: 0px;
+}
+
+.table-fill th.text-left {
+  text-align: left;
+}
+
+.table-fill th.text-center {
+  text-align: center;
+}
+
+.table-fill th.text-right {
+  text-align: right;
+}
+
+.table-fill td.text-left {
+  text-align: left;
+}
+
+.table-fill td.text-center {
+  text-align: center;
+}
+
+.table-fill td.text-right {
+  text-align: right;
+}
+
+
+#msform input, #msform textarea, #msform select {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	/*margin-bottom: 10px;*/
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 14px;
+}
+#msform input.inputfile{
+border:none;
+}
+tr:hover input.inputfile{
+color:#000 !important;
+}
+#msform select option{
+font-size:14px;
+margin:5px 7px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 200px;
+	background: #015d8d;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #015d8d;
+}
+
+.captcha-input{
+width:100px;
+float:left;
+padding-top:9px;
+}
+.captcha-input input{
+width:100px;
+}
+.captcha-img{
+width:200px;
+float:left;
+margin-left:30px;
+}
+.content .captcha-img img{
+background:none;
+border:none;
+padding:0px;
+margin:0px;
+}
